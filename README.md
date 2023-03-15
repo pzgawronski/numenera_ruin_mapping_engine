@@ -2,7 +2,7 @@
 The Ruin Mapping Engine from Monte Cook's “Numenéra: The Jade Colossus”, pythonized.
 
 ## How to
-Import "main" in the c
+Import "RME/main.py" in the console:
 
 - "random()" to generate a random chamber
 - "choice(x)" to generate a selected chamber*

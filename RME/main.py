@@ -1,4 +1,4 @@
-from RME.rme_modes import rme_random, rme_choice, rme_cascade
+from rme_modes import rme_random, rme_choice, rme_cascade
 
 
 def random():
