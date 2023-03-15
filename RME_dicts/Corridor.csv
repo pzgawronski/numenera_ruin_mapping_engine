@@ -1,0 +1,12 @@
+1,"Passage extends 20 feet (6 m), roll again"
+8,Passage extends a short distance
+11,Passage blocked by a corridor collapse
+12,Passage comes to a dead end
+13,Passage bends left
+14,Passage bends right
+15,Passage slopes up
+16,Passage slopes down
+17,"Passage runs a short distance parallel to previous chamber or corridor, roll again on this table; ignore if no previously rolled chamber or corridor"
+18,"Passage runs an immediate distance into an interstitial cavity, then runs an additional distance across that cavity’s entire width as a catwalk; roll on the Interstitial Cavity Table to determine nature of space passed through, and again on this table where the passage returns to normal (enclosed)"
+19,"Passage runs a short distance and comes to a T intersection, roll on this table for each branch"
+20,"Passage runs a short distance and comes to an X intersection, roll on this table for each branch"
