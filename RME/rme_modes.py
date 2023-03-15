@@ -19,13 +19,6 @@ MAPPING = {
 }
 
 
-def display_secondary(encounter: Generator):
-    if encounter.secondary:
-        encounter.secondary = rme_choice(encounter.secondary)
-        encounter.display_name += f" IN {encounter.secondary.display_name}"
-        encounter.type += f"\n{encounter.secondary.type}"
-
-
 def format_cascade(rooms_dict: dict):
     formatted_rooms_string = ""
     for level in rooms_dict:
@@ -37,7 +30,6 @@ def format_cascade(rooms_dict: dict):
 
 def rme_choice(main_feat: str):
     new_choice = MAPPING[main_feat]()
-    display_secondary(new_choice)
     return new_choice
 
 
